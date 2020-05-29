@@ -21,6 +21,8 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Auth::routes();
+// http - nao mantem estado
 
-Route::get('/home', 'HomeController@index')->name('home');
+// sessao - guardada no servidor
+
+// cookies - guardado no browser
