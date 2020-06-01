@@ -21,7 +21,8 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-
+Route::get('/photos', 'PhotosController@create');
+Route::post('/photos', 'PhotosController@store');
 
 // http - nao mantem estado
 
